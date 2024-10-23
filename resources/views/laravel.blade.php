@@ -20,7 +20,7 @@
                         </div>
                         <div class="navBtns">
                             <a href="#">home</a>
-                            <a href="#">contact</a>
+                            <a href="contact">contact</a>
                             <a href="#">shop</a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             <h3>abc</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="buttons">
-                                <a href="#" class="customBtn">view-product</a>
+                                <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
                     </div>

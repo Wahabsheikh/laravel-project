@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('wahab', function () {
     return view('laravel');
 });
-// Route::get('/signup', function () {
-//     return view('signup');
-// });
+Route::get('contact', function () {
+    return view('contact');
+});
+Route::get('viewproduct', function () {
+    return view('viewproduct');
+});
