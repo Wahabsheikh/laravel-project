@@ -36,6 +36,10 @@
                         <span class="bannerName">
                             Abdul
                         </span>
+                        <div class="button">
+                            <a href="biography" class="customBtn">biography</a>
+                            <a href="cv" class="customBtn">cv</a>
+                        </div>
                     </div>
                     <div class="bnImg">
                         <img src="{{ asset('assets/bannerimage/wahab.png') }}" alt="Logo">
@@ -59,6 +63,7 @@
                                 <a href="viewproduct" class="customBtn">view-product</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-4 ">

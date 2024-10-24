@@ -1,6 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\userController;
+Route::get('/user', [userController::class, 'show']);
+Route::get('/cv', [userController::class, 'cv']);
+Route::get('/biography', [userController::class, 'biography']);
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +28,4 @@ Route::get('wahab', function () {
 });
 Route::get('contact', function () {
     return view('contact');
-});
-Route::get('viewproduct', function () {
-    return view('viewproduct');
 });
