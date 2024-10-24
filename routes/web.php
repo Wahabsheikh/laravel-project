@@ -28,3 +28,6 @@ Route::get('wahab', function () {
 Route::get('contact', function () {
     return view('contact');
 });
+Route::get('tamplates', function () {
+    return view('templates');
+});

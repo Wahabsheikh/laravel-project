@@ -22,6 +22,8 @@
                         <div class="navBtns">
                             <a href="wahab">portfolio</a>
                             <a href="contact">contact</a>
+                            <a href="tamplates">More Templates</a>
+
                         </div>
                     </div>
                 </div>
@@ -32,8 +34,23 @@
         @hasSection('content')
         @yield('content')
         @else
-        @yield('notfound')
+        <div class="image">
+            <img src="{{ asset('/assets/pagenotfound.jpg') }}" alt="server not found">
 
+        </div>
+        <style>
+        .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image img {
+            width: 100vw;
+
+        }
+        </style>
 
         @endif
 
