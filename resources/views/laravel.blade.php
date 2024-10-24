@@ -38,7 +38,7 @@
                         </span>
                         <div class="button">
                             <a href="biography" class="customBtn">biography</a>
-                            <a href="cv" class="customBtn">cv</a>
+                            <a href="{{ asset('assets/cv/resume.pdf') }}" class="customBtn">cv</a>
                         </div>
                     </div>
                     <div class="bnImg">
