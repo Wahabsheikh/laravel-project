@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\userController;
-Route::get('/user', [userController::class, 'show']);
-Route::get('/cv', [userController::class, 'cv']);
-Route::get('/biography', [userController::class, 'biography']);
+// use App\Http\Controllers\userController;
+// Route::get('/user', [userController::class, 'show']);
+// Route::get('/biography', [userController::class, 'biography']);
 
 
 
@@ -19,12 +18,12 @@ Route::get('/biography', [userController::class, 'biography']);
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
 });
 
 Route::get('wahab', function () {
-    return view('laravel');
+    return view('home');
 });
 Route::get('contact', function () {
     return view('contact');
